@@ -31,4 +31,4 @@ Welcome! This repository documents my professional growth in Python, following t
 ### 💡 Why this repository?
 Every challenge solved here represents more than just a script; it’s a step toward professional mastery. I focus on efficiency and clear documentation to ensure my code is "hire-ready".
 
-> *"Learning is a marathon, not a sprint. Every commit counts."*
+> *"Learning is a marathon, not a sprint. Every commit counts. My goal is to maintain this momentum daily, turning consistent practice into the foundation of my professional growth."*
