@@ -1,21 +1,34 @@
-# Daily-Python-Challenges
-Working through Nichola Lacey's 'Python by Examples'. Documenting my progress from fundamentals (basics, control flow) to advanced topics (GUIs, databases). A structured learning journey.
+# 🐍 Daily Python Challenges: The Journey
 
-# 📚 Python by Examples Journey (Nichola Lacey)
+Welcome! This repository documents my professional growth in Python, following the structured roadmap from **"Python by Examples" by Nichola Lacey**. My goal is to master the language through 150+ hands-on challenges.
 
-Welcome to my repository! Here I am working through the 150+ challenges from the book "Python by Examples" to solidify my understanding of core Python concepts.
+---
+
+## 🚀 My Learning Goals
+- **Clean Code:** Writing readable code following PEP 8 standards.
+- **Problem Solving:** Breaking down complex book challenges into efficient logic.
+- **Consistency:** Committing code daily to build a strong engineering habit.
 
 ## 📖 Roadmap & Progress
 
 
-| Section | Topic | Status | 
+| Section | Topic | Status |
 | :--- | :--- | :--- |
-| Challenges 1-11 | The Basics | **Completed** ✅ |
-| Challenges 12-19 | If Statements | In Progress 🚧 |
-| Challenges 20-26 | Strings | Planned 🗓️ |
-| Challenges 27-34 | Maths | Planned 🗓️ |
-| ... | ... | ... |
+| **Challenges 1-11** | The Basics & Variables | **Completed** ✅ |
+| **Challenges 12-19** | If Statements & Logic | **In Progress** 🚧 |
+| **Challenges 20-26** | Strings Manipulation | Planned 🗓️ |
+| **Challenges 27-34** | Mathematical Operations | Planned 🗓️ |
+| **Challenges 35-44** | For Loops | Planned 🗓️ |
+| **Challenges 45-51** | While Loops | Planned 🗓️ |
 
-*Every challenge is solved following best practices for clean code and efficiency.*
-*Learning is a marathon, not a sprint. Every commit here represents a step toward professional mastery.*
+## 🛠️ Tech Stack & Tools
+- **Language:** Python 3.x
+- **Development Env:** VS Code / XAMPP Environment
+- **Resources:** *Python by Examples* (Nichola Lacey)
 
+---
+
+### 💡 Why this repository?
+Every challenge solved here represents more than just a script; it’s a step toward professional mastery. I focus on efficiency and clear documentation to ensure my code is "hire-ready".
+
+> *"Learning is a marathon, not a sprint. Every commit counts."*
