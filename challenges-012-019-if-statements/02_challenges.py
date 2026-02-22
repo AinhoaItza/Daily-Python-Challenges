@@ -1,56 +1,9 @@
-# #Teoria
-num1 = 20
-if num1 > 10:
-    print("This is over 10")
-elif num1 == 10:
-    print("This is equals to 10")
-else:
-    print("This is under 10")
-
-num = int(input("Enter a number between 10 and 20: "))
-if num>= 10 and num <= 20:
-    print("Thank you")
-else:
-    print("Out of range")
-#aqui se usa "and", means que tienen que ser ciertas para imprimir
-
-num = int(input("Enter an EVEN number between 1 and 5: "))
-if num == 2 or num == 4:
-    print("Thank you")
-else:
-    print("Incorrect")
-#aqui se usa "or", means que al menos tiene que se un numero par
-#para que se cumpla
-
-num = 30
-if num >= 10:
-    if num <= 20:
-        print("This is between 10 and 20")
-    else:
-        print("This is over 20")
-else:
-    print("This is under 10")
-
-text = str.lower(text) #Changes the text to lower case.
-
-num = int(input("Enter a number between 10 and 20: "))
-if num >= 10 and num <= 20:
-    print("Thank you")
-else:
-    print("Out of range")    
-# This use and. Both conditions mut be met
-
-num = int(input("Enter a number between 10 and 20: "))
-if num >= 10 or num <= 20:
-    print("Thank you")
-else:
-    print("Out of range")    
-# This use or. Just one conditions mut be met
+# ============================================================
+# CHALLENGES 012 - 019: IF STATEMENTS
+# ============================================================
 
 
-##Challenges
-
-#012 CORRECT
+## 012 - Number Comparison - CORRECT
 num1 = int(input("Enter the first number: "))
 num2 = int(input("Enter the second number: "))
 if num1 > num2:
@@ -58,7 +11,7 @@ if num1 > num2:
 else:
     print(num1, "and" , num2)
 
-#013 Correct
+## 013 - Under 20 Validation - Correct
 num1 = int(input("Please enter a number under 20: "))
 if num1 < 20:
     print("Thank you")
@@ -72,21 +25,21 @@ if num1 >= 20:
 else:
     print("Thank you") 
 
-#014 Correct
+## 014 - Range Check (10-20) - Correct
 num = int(input("Enter a number between 10 and 20 (inclusive): "))
 if num >= 10 and num <= 20:
     print("Thank you")
 else:
     print("Incorrect answer")
 
-#015 Correct
+## 015 - Favourite Colour - Correct
 colour = input("Please enter your favourite colour: ").lower()
 if colour == "red":
     print("I like red too")
 else:
     print("I dont like", colour,", I prefer red")
-#My code is better because .lower() handles all capitalization variants (like "rEd"), 
-#making it more robust and much cleaner.
+# My approach is more robust as .lower() handles all capitalization variants (e.g., "rEd").
+# Use .casefold() for even more aggressive matching with international characters.
 
 #An alternative approach (Nichola's answer)
 colour = input("Please enter your favourite colour: ").lower()
@@ -95,9 +48,9 @@ if colour == "red" or colour == "RED" or colour == "Red":
 else:
     print("I dont like that colour, I prefer red")
 
-#Use .casefold() for "aggressive" matching; it’s more reliable than .lower() for international characters.
 
-#016 Correct
+## 016 - Weather Advisor - Correct
+# Chaining .lower() directly to input() is cleaner and avoids reassigning variables.
 weather = input("Could you tell me if is raining in your location right now?: ").lower()
 if weather == "yes":
     windy = input("Could you tell me if is windy in you location right now: ").lower()
@@ -121,10 +74,9 @@ if raining == "yes":
 else:
     print("Enjoy your day")
 
-#Chaining .lower() directly to the input() function is better practice than reassigning
-#variables, as it reduces redundancy and potential errors.
 
-#017 Correct
+
+## 017 - Age Permissions - Correct
 age = int(input("How old are you?: "))
 if age >= 18:
     print("You can vote")
@@ -149,7 +101,7 @@ else:
 #Both versions are logically equivalent, but Nichola's else is more efficient as it acts as 
 #a catch-all without needing an extra comparison."
 
-#018 Correct
+## 018 - Number Range Categorization - Correct
 number = int(input("Please write a number: "))
 if number < 10:
     print("Too low")
@@ -158,7 +110,7 @@ elif number >= 10 and number <= 20:
 else:
     print("Too high")
 
-#019
+## 019 - Choice Selection - Correct
 num1 = 1
 num2 = 2
 num3 = 3
