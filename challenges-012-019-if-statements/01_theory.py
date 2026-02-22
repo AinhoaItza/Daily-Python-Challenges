@@ -42,7 +42,7 @@ else:
 ## 5. STRING NORMALIZATION
 # .lower() ensures that comparisons are not case-sensitive.
 # Example: "YES", "Yes", and "yes" all become "yes".
-text = str.lower(text) #Changes the text to lower case.
+text = str.lower() #Changes the text to lower case.
 
 ## 6. COMPARISON SUMMARY (AND vs OR)
 # AND: num >= 10 and num <= 20 
