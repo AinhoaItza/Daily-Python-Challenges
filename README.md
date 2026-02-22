@@ -15,8 +15,8 @@ Welcome! This repository documents my professional growth in Python, following t
 | Section | Topic | Status |
 | :--- | :--- | :--- |
 | **Challenges 1-11** | The Basics & Variables | **Completed** ✅ |
-| **Challenges 12-19** | If Statements & Logic | **In Progress** 🚧 |
-| **Challenges 20-26** | Strings Manipulation | Planned 🗓️ |
+| **Challenges 12-19** | If Statements & Logic | **Completed** ✅ |
+| **Challenges 20-26** | Strings Manipulation | **In Progress** 🚧 |
 | **Challenges 27-34** | Mathematical Operations | Planned 🗓️ |
 | **Challenges 35-44** | For Loops | Planned 🗓️ |
 | **Challenges 45-51** | While Loops | Planned 🗓️ |
